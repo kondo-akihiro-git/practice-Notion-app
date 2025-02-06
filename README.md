@@ -1,11 +1,11 @@
-# Notion Table Viewer
+# ローカル環境での Notion テーブルの表示
 
 ## ローカル環境でのセットアップ手順
 
 ### 1. Gitリポジトリのクローン
 まず、リポジトリをクローンします。
 ```sh
-git clone <リポジトリのURL>
+git clone https://github.com/kondo-akihiro-git/practice-Notion-app.git
 cd notion-table-viewer
 ```
 
@@ -56,12 +56,6 @@ cd ..
 vue create notion-table-viewer-frontend
 ```
 
-プロジェクト作成時、以下のオプションを選択してください。
-```
-Manually select features → Babel, Router
-Use history mode for router? → No
-```
-
 #### ③ 依存パッケージのインストール
 ```sh
 cd notion-table-viewer-frontend
@@ -94,6 +88,4 @@ notion-table-viewer-frontend/
 │── package.json
 │── public/
 ```
-
-これで、ローカル環境でNotionのテーブルデータを表示する準備が整いました！
 
